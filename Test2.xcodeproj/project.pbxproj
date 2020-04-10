@@ -3,20 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5860AFFF1378AC85AE36E2BD /* Pods_Test2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5560DF4F9E41222A97E48B /* Pods_Test2.framework */; };
 		F47A2C17241A6B76003A9C11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A2C16241A6B76003A9C11 /* AppDelegate.swift */; };
 		F47A2C19241A6B76003A9C11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A2C18241A6B76003A9C11 /* SceneDelegate.swift */; };
 		F47A2C1B241A6B76003A9C11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A2C1A241A6B76003A9C11 /* ContentView.swift */; };
 		F47A2C1D241A6B78003A9C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47A2C1C241A6B78003A9C11 /* Assets.xcassets */; };
 		F47A2C20241A6B78003A9C11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47A2C1F241A6B78003A9C11 /* Preview Assets.xcassets */; };
 		F47A2C23241A6B78003A9C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47A2C21241A6B78003A9C11 /* LaunchScreen.storyboard */; };
+		F47A2C2B241A6BDD003A9C11 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A2C2A241A6BDD003A9C11 /* AudioRecorder.swift */; };
+		F47A2C2D241A6C07003A9C11 /* RecordingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A2C2C241A6C07003A9C11 /* RecordingList.swift */; };
+		F47A2C2F241A6C1C003A9C11 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A2C2E241A6C1C003A9C11 /* Helper.swift */; };
+		F47A2C31241A6C23003A9C11 /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A2C30241A6C23003A9C11 /* RecordingDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F47A2C13241A6B76003A9C11 /* Test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07902F804AE8BB44B5508E1B /* Pods-Test2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test2.debug.xcconfig"; path = "Target Support Files/Pods-Test2/Pods-Test2.debug.xcconfig"; sourceTree = "<group>"; };
+		97C12BBCD2526CC472CABEF2 /* Pods-Test2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test2.release.xcconfig"; path = "Target Support Files/Pods-Test2/Pods-Test2.release.xcconfig"; sourceTree = "<group>"; };
+		9A5560DF4F9E41222A97E48B /* Pods_Test2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47A2C13241A6B76003A9C11 /* Emotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47A2C16241A6B76003A9C11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F47A2C18241A6B76003A9C11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F47A2C1A241A6B76003A9C11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		F47A2C1F241A6B78003A9C11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F47A2C22241A6B78003A9C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F47A2C24241A6B78003A9C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47A2C2A241A6BDD003A9C11 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		F47A2C2C241A6C07003A9C11 /* RecordingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingList.swift; sourceTree = "<group>"; };
+		F47A2C2E241A6C1C003A9C11 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		F47A2C30241A6C23003A9C11 /* RecordingDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +43,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5860AFFF1378AC85AE36E2BD /* Pods_Test2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80712546CBA5237D234E74DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A5560DF4F9E41222A97E48B /* Pods_Test2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D7BEC09DD62776D9B561F81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07902F804AE8BB44B5508E1B /* Pods-Test2.debug.xcconfig */,
+				97C12BBCD2526CC472CABEF2 /* Pods-Test2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F47A2C0A241A6B76003A9C11 = {
 			isa = PBXGroup;
 			children = (
 				F47A2C15241A6B76003A9C11 /* Test2 */,
 				F47A2C14241A6B76003A9C11 /* Products */,
+				9D7BEC09DD62776D9B561F81 /* Pods */,
+				80712546CBA5237D234E74DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F47A2C14241A6B76003A9C11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F47A2C13241A6B76003A9C11 /* Test2.app */,
+				F47A2C13241A6B76003A9C11 /* Emotion.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,7 +91,11 @@
 				F47A2C16241A6B76003A9C11 /* AppDelegate.swift */,
 				F47A2C18241A6B76003A9C11 /* SceneDelegate.swift */,
 				F47A2C1A241A6B76003A9C11 /* ContentView.swift */,
+				F47A2C2A241A6BDD003A9C11 /* AudioRecorder.swift */,
+				F47A2C2C241A6C07003A9C11 /* RecordingList.swift */,
+				F47A2C30241A6C23003A9C11 /* RecordingDataModel.swift */,
 				F47A2C1C241A6B78003A9C11 /* Assets.xcassets */,
+				F47A2C2E241A6C1C003A9C11 /* Helper.swift */,
 				F47A2C21241A6B78003A9C11 /* LaunchScreen.storyboard */,
 				F47A2C24241A6B78003A9C11 /* Info.plist */,
 				F47A2C1E241A6B78003A9C11 /* Preview Content */,
@@ -82,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F47A2C27241A6B78003A9C11 /* Build configuration list for PBXNativeTarget "Test2" */;
 			buildPhases = (
+				024F178C71321608C34FF6E9 /* [CP] Check Pods Manifest.lock */,
 				F47A2C0F241A6B76003A9C11 /* Sources */,
 				F47A2C10241A6B76003A9C11 /* Frameworks */,
 				F47A2C11241A6B76003A9C11 /* Resources */,
+				73F937C795AFB197106C2CC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -92,7 +130,7 @@
 			);
 			name = Test2;
 			productName = Test2;
-			productReference = F47A2C13241A6B76003A9C11 /* Test2.app */;
+			productReference = F47A2C13241A6B76003A9C11 /* Emotion.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,14 +179,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		024F178C71321608C34FF6E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73F937C795AFB197106C2CC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test2/Pods-Test2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test2/Pods-Test2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test2/Pods-Test2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F47A2C0F241A6B76003A9C11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47A2C2D241A6C07003A9C11 /* RecordingList.swift in Sources */,
 				F47A2C17241A6B76003A9C11 /* AppDelegate.swift in Sources */,
+				F47A2C31241A6C23003A9C11 /* RecordingDataModel.swift in Sources */,
 				F47A2C19241A6B76003A9C11 /* SceneDelegate.swift in Sources */,
+				F47A2C2B241A6BDD003A9C11 /* AudioRecorder.swift in Sources */,
 				F47A2C1B241A6B76003A9C11 /* ContentView.swift in Sources */,
+				F47A2C2F241A6C1C003A9C11 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +366,7 @@
 		};
 		F47A2C28241A6B78003A9C11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07902F804AE8BB44B5508E1B /* Pods-Test2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,15 +378,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = kek.Test2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Emotion;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F47A2C29241A6B78003A9C11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C12BBCD2526CC472CABEF2 /* Pods-Test2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,10 +400,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = kek.Test2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Emotion;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
