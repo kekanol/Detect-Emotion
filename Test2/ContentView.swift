@@ -58,7 +58,9 @@ struct ContentView: View {
                                 self.save(i: i) // сохраняет результаты пришедшие с сервера
                             }
                             let recs = self.audioRecorder.recordings.dropLast()
-                            self.audioRecorder.DeleteAt(url: recs.last!.fileURL) // удаляет записанный 5секундный записанный файл
+                            if recs.count != 0 {
+                                self.audioRecorder.DeleteAt(url: recs.last!.fileURL) // удаляет записанный 5секундный записанный файл
+                            }
                             self.audioRecorder.fetchRecordings() // обновляет recordings
                             
                         }

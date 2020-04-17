@@ -370,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Test2/Preview Content\"";
 				DEVELOPMENT_TEAM = 3A9536C2AF;
 				ENABLE_PREVIEWS = YES;
@@ -378,7 +379,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = kek.Test2;
 				PRODUCT_NAME = Emotion;
 				SWIFT_VERSION = 5.0;
@@ -392,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Test2/Preview Content\"";
 				DEVELOPMENT_TEAM = 3A9536C2AF;
 				ENABLE_PREVIEWS = YES;
@@ -400,7 +402,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = kek.Test2;
 				PRODUCT_NAME = Emotion;
 				SWIFT_VERSION = 5.0;
